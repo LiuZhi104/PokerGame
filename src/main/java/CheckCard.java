@@ -5,25 +5,51 @@ import java.util.stream.Collectors;
 public class CheckCard {
 
     public static String getWinner(Player player1, Player player2) {
-        if (player1.getCardLevel() == player2.getCardLevel()) {
-            if (player1.getCardLevel() == 0) {
+        int cardLevel = player1.getCardLevel();
+        if (cardLevel == player2.getCardLevel()) {
+            if (cardLevel == 0) {
                 return checkSameLevel(player1, player2);
-            } else if (player1.getCardLevel() == 1) {
+            } else if (cardLevel == 1) {
                 return compareSameLevel(player1, player2);
-            } else if (player1.getCardLevel() == 2) {
+            } else if (cardLevel == 2) {
                 return compareBothTwoPair(player1, player2);
-            } else if (player1.getCardLevel() == 3) {
+            } else if (cardLevel == 3) {
                 return compareSameLevel(player1, player2);
-            }else if(player1.getCardLevel() == 4){
+            }else if(cardLevel == 4){
                 return compareBothStraight(player1,player2);
-            }else if(player1.getCardLevel() == 5){
+            }else if(cardLevel == 5){
                 return compareBothFlush(player1,player2);
+            }else if(cardLevel == 6){
+                return compateBothFullHouse(player1,player2);
             }
         }
-        if (player1.getCardLevel() > player2.getCardLevel()) {
+        if (cardLevel > player2.getCardLevel()) {
             return "palyer1";
         }
         return "palyer2";
+    }
+
+    private static String compateBothFullHouse(Player player1, Player player2) {
+        Integer player1MaxValue = getFullHouseMaxValue(player1);
+        Integer player2MaxValue = getFullHouseMaxValue(player2);
+        if(player1MaxValue>player2MaxValue){
+            return "palyer1";
+        }else {
+            return "palyer2";
+        }
+    }
+
+    private static Integer getFullHouseMaxValue(Player player1) {
+        List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(player1));
+        Integer maxValue  = 2;
+        Integer play1Value = playList.get(0);
+        playList = playList.stream().filter(num -> num != play1Value).collect(Collectors.toList());
+        if(playList.size() == 2){
+            maxValue = play1Value;
+        }else {
+            maxValue = playList.get(0);
+        }
+        return maxValue;
     }
 
     private static String compareBothFlush(Player player1, Player player2) {

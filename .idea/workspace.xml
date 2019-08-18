@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24f973b6-8746-430a-ad98-68323ada3f4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckCard.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="325" column="47" lean-forward="true" selection-start-line="325" selection-start-column="47" selection-end-line="325" selection-end-column="47" />
+            <state relative-caret-position="458">
+              <caret line="353" column="35" lean-forward="true" selection-start-line="353" selection-start-column="35" selection-end-line="353" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
@@ -99,15 +99,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="296">
+              <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2087#2088#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,10 +137,10 @@
         <option value="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Poker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/TransformUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CheckCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CheckCard.java" />
       </list>
     </option>
   </component>
@@ -239,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerTest.testFivePoker_flush_compare_full_hose">
+  <component name="RunManager" selected="JUnit.PokerTest.testFivePoker_both_full_house">
     <configuration name="PokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -259,21 +259,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerTest.testFivePoker_flush_compare_full_hose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.testFivePoker_both_full_house" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testFivePoker_flush_compare_full_hose" />
+      <option name="METHOD_NAME" value="testFivePoker_both_full_house" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerTest.testFivePoker_same_straight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.testFivePoker_flush_compare_full_hose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testFivePoker_same_straight" />
+      <option name="METHOD_NAME" value="testFivePoker_flush_compare_full_hose" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokerTest.testFivePoker_both_full_house" />
+        <item itemvalue="JUnit.PokerTest" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_flush_compare_full_hose" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_both_flush_compare" />
-        <item itemvalue="JUnit.PokerTest" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_same_straight_and_diff_color" />
-        <item itemvalue="JUnit.PokerTest.testFivePoker_same_straight" />
       </list>
     </recent_temporary>
   </component>
@@ -553,22 +553,31 @@
       <option name="project" value="LOCAL" />
       <updated>1566112025178</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="添加level为Flush和level是full_hose的牌对比的Test，测试失败">
+      <created>1566112150824</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1566112150824</updated>
+    </task>
+    <task id="LOCAL-00030" summary="在Player类中的computeLevel的方法中添加计算Level是Full_house和four_of_a_kind，且重构computeLevel方法，测试全部通过">
+      <created>1566112272083</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1566112272083</updated>
+    </task>
+    <task id="LOCAL-00031" summary="添加level都为full_house的Test，测试失败">
+      <created>1566112516436</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1566112516436</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest_testFivePoker_same_three_of_kind_compare - 2019.08.18 at 14h 50m 20s.xml">
-      <configuration name="PokerTest.testFivePoker_same_three_of_kind_compare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_same_straight - 2019.08.18 at 14h 51m 36s.xml">
-      <configuration name="PokerTest.testFivePoker_same_straight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_same_straight - 2019.08.18 at 14h 59m 13s.xml">
-      <configuration name="PokerTest.testFivePoker_same_straight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_same_straight - 2019.08.18 at 15h 00m 47s.xml">
-      <configuration name="PokerTest.testFivePoker_same_straight" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest_testFivePoker_same_straight_and_diff_color - 2019.08.18 at 15h 01m 53s.xml">
       <configuration name="PokerTest.testFivePoker_same_straight_and_diff_color" configurationId="JUnit" />
     </history-entry>
@@ -587,12 +596,24 @@
     <history-entry file="PokerTest_testFivePoker_flush_compare_full_hose - 2019.08.18 at 15h 08m 02s.xml">
       <configuration name="PokerTest.testFivePoker_flush_compare_full_hose" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest_testFivePoker_flush_compare_full_hose - 2019.08.18 at 15h 10m 29s.xml">
+      <configuration name="PokerTest.testFivePoker_flush_compare_full_hose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_both_full_house - 2019.08.18 at 15h 12m 39s.xml">
+      <configuration name="PokerTest.testFivePoker_both_full_house" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_flush_compare_full_hose - 2019.08.18 at 15h 14m 15s.xml">
+      <configuration name="PokerTest.testFivePoker_flush_compare_full_hose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 15h 14m 25s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -603,7 +624,7 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.46388263" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.46388263" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,7 +633,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005365" side_tool="true" weight="0.5214447" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.261851" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32844242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -651,9 +672,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="由testFivePoker_and_no_pair_is_easiest测试，测试通过" />
-    <MESSAGE value="由testFivePoker_and_no_pair_one_by_one_compare测试，测试不通过" />
-    <MESSAGE value="修改并在checkCard添加方法，测试通过" />
     <MESSAGE value="编写没有pair和flush的五张牌相等的测试，并且在上个测试重构的方法中实现，测试通过" />
     <MESSAGE value="由testFivePoker_and_two_pair测试，测试失败" />
     <MESSAGE value="由two pair great than no pair这个测试，重构了checkCard方法，新增了TransformUtil类，在Palyer类新增了属性cardLevel和方法computeLevel" />
@@ -676,7 +694,10 @@
     <MESSAGE value="添加相同的顺序但是花色不同的牌的Test，测试通过" />
     <MESSAGE value="添加比较level都是flush的测试实例和Test，测试没通过" />
     <MESSAGE value="在CheckCard类中的getWinner方法中，添加判断level都是Flush的牌的判断，使所有测试都通过" />
-    <option name="LAST_COMMIT_MESSAGE" value="在CheckCard类中的getWinner方法中，添加判断level都是Flush的牌的判断，使所有测试都通过" />
+    <MESSAGE value="添加level为Flush和level是full_hose的牌对比的Test，测试失败" />
+    <MESSAGE value="在Player类中的computeLevel的方法中添加计算Level是Full_house和four_of_a_kind，且重构computeLevel方法，测试全部通过" />
+    <MESSAGE value="添加level都为full_house的Test，测试失败" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加level都为full_house的Test，测试失败" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java">
@@ -1049,10 +1070,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TransformUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
@@ -1073,29 +1101,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TransformUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        <state relative-caret-position="458">
+          <caret line="353" column="35" lean-forward="true" selection-start-line="353" selection-start-column="35" selection-end-line="353" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="296">
+          <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="325" column="47" lean-forward="true" selection-start-line="325" selection-start-column="47" selection-end-line="325" selection-end-column="47" />
         </state>
       </provider>
     </entry>
