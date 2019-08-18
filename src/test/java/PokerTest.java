@@ -238,5 +238,26 @@ public class PokerTest {
         //then
         Assert.assertEquals("palyer2", winner);
     }
+    @Test
+    public void testFivePoker_same_three_of_kind_compare() {
+        //given
+//        palyer1 4H 4D 4S 9C KD
+//        palyer2 3H 3D 5S 9C 3D
+        Player player1 = new Player("palyer1");
+        Player player2 = new Player("palyer2");
+        player1.setCardGroup(Arrays.asList(new Poker("H", "4"), new Poker("D", "4"),
+                new Poker("S", "4"), new Poker("C", "9"), new Poker("D", "K")));
+        player1.computeCardLevel();
+        player2.setCardGroup(Arrays.asList(new Poker("H", "3"), new Poker("D", "3"),
+                new Poker("S", "5"), new Poker("C", "9"), new Poker("D", "3")));
+        player2.computeCardLevel();
+
+        //when
+        String winner = CheckCard.getWinner(player1, player2);
+
+        //then
+        Assert.assertEquals("palyer1", winner);
+    }
+
 
 }
