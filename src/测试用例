@@ -1,0 +1,70 @@
+tasking 1
+    palyer1 6H
+    palyer2 9H
+    winner is palyer2
+
+tasking 2
+    palyer1 6H AH
+    palyer2 9H 8C
+    winner is palyer1
+
+tasking 3
+    palyer1 2H 3D 5S 9C KD
+    palyer2 2H 3D 5S 9C QD
+    winner is palyer1
+
+tasking 4
+    palyer1 2H 3D 5S 8C KD
+    palyer2 2H 3D 5S 9C KD
+    winner is palyer2
+
+tasking 5
+    palyer1 2H 3D 5S 9C KD
+    palyer2 2H 3D 5S 9C QD
+    winner is palyer1
+
+tasking 6
+    palyer1 3H 3D 5S 9C KD
+    palyer2 2H 3D 5S 9C AD
+    winner is palyer1
+
+tasking 7
+
+    palyer1 3H 3D 5S 5D KD
+    palyer2 3H 3D 5S 9C AD
+    winner is palyer1
+
+tasking 8
+    palyer1 3H 3D 5S 5C KD
+    palyer2 2H 3D 9S 9C QD
+    winner is palyer2
+
+tasking 9
+    palyer1 3H 3D 9S 9C KD
+    palyer2 3H 3D 5S 9C 3D
+    winner is palyer2
+
+tasking 10
+    palyer1 3H 3D 5S 9C 3D
+    palyer2 3H 4D 5S 6C 7D
+    winner is palyer2
+
+tasking 11
+    palyer1 3H 4D 5S 6C 7D
+    palyer2 2H 3H 5H 9H KH
+    winner is palyer2
+
+tasking 12
+    palyer1 2H 3H 5H 9H KH
+    palyer2 3H 3D 5S 5C 3D
+    winner is palyer1
+
+tasking 13
+    palyer1 3H 3D 5S 5C 3D
+    palyer2 3H 3D 3S 5C 3D
+    winner is palyer2
+
+tasking 14
+    palyer1 3H 3D 3S 5C 3D
+    palyer2 2H 3H 4H 5H 6H
+    winner is palyer2

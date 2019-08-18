@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24f973b6-8746-430a-ad98-68323ada3f4b" name="Default Changelist" comment="" />
+    <list default="true" id="24f973b6-8746-430a-ad98-68323ada3f4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CheckCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Poker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/测试用例" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/CarDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/CarDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/InOrderParkingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/ParkingBoy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/ParkingLot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/ParkingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/Receipt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parking/VipParkingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/EcmService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/Sales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesActivityReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesReportDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesReportData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parking/InOrderParkingStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyJMockitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/CarDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/CarDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/InOrderParkingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/ParkingBoy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/ParkingLot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/ParkingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/Receipt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking/VipParkingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sales/EcmService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sales/Sales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesActivityReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesReportDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesReportData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/parking/InOrderParkingStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/parking/ParkingLotTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sales/SalesAppTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,33 +65,49 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sales/Sales.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="390">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
+        <entry file="file://$PROJECT_DIR$/src/测试用例">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            <state relative-caret-position="690">
+              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2464">
-              <caret line="112" column="36" lean-forward="true" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Poker.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -56,7 +123,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,7 +138,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1060" />
     <option name="y" value="10" />
     <option name="width" value="1059" />
@@ -84,80 +158,56 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="saleApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="saleApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="saleApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="saleApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="parking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sales" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="saleApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
+              <item name="saleApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="junit_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sale" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sales" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PokerGame/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -174,7 +224,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest">
+  <component name="RunManager" selected="JUnit.PokerTest">
+    <configuration name="PokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PokerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalesAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -238,29 +297,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesAppTest.testfilterReportData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="testfilterReportData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokerTest" />
         <item itemvalue="JUnit.SalesAppTest" />
         <item itemvalue="JUnit.SalesAppTest.testGenerateReport" />
         <item itemvalue="JUnit.SalesAppTest.testGetStrings" />
         <item itemvalue="JUnit.SalesAppTest.testGetSalesReportData" />
-        <item itemvalue="JUnit.SalesAppTest.testfilterReportData" />
       </list>
     </recent_temporary>
   </component>
@@ -310,44 +353,41 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Project Explorer" />
-      <window_info id="UI Designer" />
-      <window_info id="Job Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Console" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Job Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04288939" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -362,7 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/Mockito.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/Mockito.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
@@ -383,24 +423,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar!/org/apache/commons/lang3/StringUtils.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar!/org/apache/commons/lang3/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="3799" column="31" selection-start-line="3799" selection-start-column="15" selection-end-line="3799" selection-end-column="31" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/CarDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -415,7 +445,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/InjectMocks.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/InjectMocks.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
@@ -432,18 +462,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="929" column="19" selection-start-line="929" selection-start-column="19" selection-end-line="929" selection-end-column="19" />
-          <folding>
-            <element signature="e#39232#39233#0" expanded="true" />
-            <element signature="e#39292#39293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Date.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="333" selection-start-line="333" selection-end-line="333" />
@@ -461,21 +481,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/util/ObjectMethodsGuru.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/util/ObjectMethodsGuru.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/AcrossJVMSerializationFeature.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/AcrossJVMSerializationFeature.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/DelegatingMockitoMethodProxy.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/DelegatingMockitoMethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -485,14 +505,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/CGLIBHacker.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/CGLIBHacker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/settings/CreationSettings.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/settings/CreationSettings.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
@@ -502,7 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/invocation/realmethod/DefaultRealMethod.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/invocation/realmethod/DefaultRealMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -512,7 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/invocation/realmethod/CleanTraceRealMethod.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/invocation/realmethod/CleanTraceRealMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -523,7 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/progress/SequenceNumber.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/progress/SequenceNumber.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -533,7 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/DelegatingMethod.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/DelegatingMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
@@ -543,21 +563,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/invocation/ArgumentsProcessor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/invocation/ArgumentsProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/debugging/LocationImpl.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/debugging/LocationImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
@@ -567,28 +587,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/invocation/InvocationImpl.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/invocation/InvocationImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/MethodInterceptorFilter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/MethodInterceptorFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="845">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
@@ -605,7 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/runners/MockitoJUnitRunner.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/runners/MockitoJUnitRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
@@ -615,7 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/runners/JUnit45AndHigherRunnerImpl.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/runners/JUnit45AndHigherRunnerImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
@@ -629,7 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
           <caret line="240" selection-start-line="240" selection-end-line="240" />
@@ -644,7 +664,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -688,25 +708,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/Sales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="120">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2464">
-          <caret line="112" column="36" lean-forward="true" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/测试用例">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Poker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
