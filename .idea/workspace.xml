@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24f973b6-8746-430a-ad98-68323ada3f4b" name="Default Changelist" comment="" />
+    <list default="true" id="24f973b6-8746-430a-ad98-68323ada3f4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TransformUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TransformUtil.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,20 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="434" column="35" lean-forward="true" selection-start-line="434" selection-start-column="35" selection-end-line="434" selection-end-column="35" />
+            <state relative-caret-position="-4440">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TransformUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+            <state relative-caret-position="587">
+              <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -54,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+            <state relative-caret-position="407">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
@@ -99,12 +104,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
+            <state relative-caret-position="407">
+              <caret line="144" column="45" lean-forward="true" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3005#3006#0" expanded="true" />
-                <element signature="e#3058#3059#0" expanded="true" />
+                <element signature="e#3102#3103#0" expanded="true" />
+                <element signature="e#3157#3158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,10 +139,10 @@
         <option value="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Poker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TransformUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CheckCard.java" />
         <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CheckCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TransformUtil.java" />
       </list>
     </option>
   </component>
@@ -236,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerTest.testFivePoker_both_straight_flush">
+  <component name="RunManager" selected="JUnit.PokerTest">
     <configuration name="PokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -276,11 +281,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerTest.testFivePoker_full_house_compare_four_of_a_kind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.testFivePoker_straight_flush_compare_high_card" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testFivePoker_full_house_compare_four_of_a_kind" />
+      <option name="METHOD_NAME" value="testFivePoker_straight_flush_compare_high_card" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokerTest" />
+        <item itemvalue="JUnit.PokerTest.testFivePoker_straight_flush_compare_high_card" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_both_straight_flush" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_four_of_a_kind_compare_straight_flush" />
-        <item itemvalue="JUnit.PokerTest" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_both_four_of_a_kind" />
-        <item itemvalue="JUnit.PokerTest.testFivePoker_full_house_compare_four_of_a_kind" />
       </list>
     </recent_temporary>
   </component>
@@ -613,19 +618,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566113040684</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="由Test驱动出CheckCard中的getWinner方法中的判断代码，让测试全部通过">
+      <created>1566113170187</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1566113170187</updated>
+    </task>
+    <task id="LOCAL-00039" summary="确保测试能覆盖，所以添加了Level为high_card和Level为straight_fulsh的牌的比较，测试通过">
+      <created>1566113270577</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1566113270577</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest_testFivePoker_flush_compare_full_hose - 2019.08.18 at 15h 10m 29s.xml">
-      <configuration name="PokerTest.testFivePoker_flush_compare_full_hose" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_both_full_house - 2019.08.18 at 15h 12m 39s.xml">
-      <configuration name="PokerTest.testFivePoker_both_full_house" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_flush_compare_full_hose - 2019.08.18 at 15h 14m 15s.xml">
-      <configuration name="PokerTest.testFivePoker_flush_compare_full_hose" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest - 2019.08.18 at 15h 14m 25s.xml">
       <configuration name="PokerTest" configurationId="JUnit" />
     </history-entry>
@@ -647,11 +657,21 @@
     <history-entry file="PokerTest_testFivePoker_both_straight_flush - 2019.08.18 at 15h 23m 44s.xml">
       <configuration name="PokerTest.testFivePoker_both_straight_flush" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest_testFivePoker_both_straight_flush - 2019.08.18 at 15h 25m 26s.xml">
+      <configuration name="PokerTest.testFivePoker_both_straight_flush" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_straight_flush_compare_high_card - 2019.08.18 at 15h 27m 17s.xml">
+      <configuration name="PokerTest.testFivePoker_straight_flush_compare_high_card" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 15h 28m 29s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -662,7 +682,7 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.46388263" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.46388263" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -710,8 +730,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="测试用例，testFivePoker_two_pair_compare ,测试失败" />
-    <MESSAGE value="由测试用例，test two_pair_compate，改变checkCard中添加two_pair之间的比较，测试通过" />
     <MESSAGE value="修改CheckCard方法，让所有的test都passed" />
     <MESSAGE value="testFivePoker_tree_of_kind_compare_two_pair由测试，测试fail" />
     <MESSAGE value="改变palyer THREE_OF_A_KIND的逻辑 ,让three_of_kind_compare_two_pair这个测试通过" />
@@ -735,7 +753,9 @@
     <MESSAGE value="在CheckCard类中getWinner方法中添加，当Level都是four_of_a_kind时的判断，并使测试全部通过" />
     <MESSAGE value="添加测试Level为straight_flush和Level为four_of_a_kind的测试，测试通过" />
     <MESSAGE value="添加Level都是straight_flush的牌比较的Test，测试不通过" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Level都是straight_flush的牌比较的Test，测试不通过" />
+    <MESSAGE value="由Test驱动出CheckCard中的getWinner方法中的判断代码，让测试全部通过" />
+    <MESSAGE value="确保测试能覆盖，所以添加了Level为high_card和Level为straight_fulsh的牌的比较，测试通过" />
+    <option name="LAST_COMMIT_MESSAGE" value="确保测试能覆盖，所以添加了Level为high_card和Level为straight_fulsh的牌的比较，测试通过" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java">
@@ -1108,17 +1128,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TransformUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        <state relative-caret-position="-4440">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="144" column="45" lean-forward="true" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+        <state relative-caret-position="407">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
@@ -1139,22 +1171,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TransformUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3005#3006#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="434" column="35" lean-forward="true" selection-start-line="434" selection-start-column="35" selection-end-line="434" selection-end-column="35" />
+        <state relative-caret-position="587">
+          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
         </state>
       </provider>
     </entry>

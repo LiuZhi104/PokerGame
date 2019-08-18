@@ -9,22 +9,27 @@ public class CheckCard {
         if (cardLevel == player2.getCardLevel()) {
             if (cardLevel == 0) {
                 return checkSameLevel(player1, player2);
-            } else if (cardLevel == 1) {
+            }
+            if (cardLevel == 1) {
                 return compareSameLevel(player1, player2);
-            } else if (cardLevel == 2) {
+            }
+            if (cardLevel == 2) {
                 return compareBothTwoPair(player1, player2);
-            } else if (cardLevel == 3) {
+            }
+            if (cardLevel == 3) {
                 return compareSameLevel(player1, player2);
-            }else if(cardLevel == 4){
-                return compareBothStraight(player1,player2);
-            }else if(cardLevel == 5){
-                return compareBothFlush(player1,player2);
-            }else if(cardLevel == 6){
-                return compateBothFullHouse(player1,player2);
-            }else if(cardLevel == 7){
-                return compateBothFourOfAKind(player1,player2);
-            }else if(cardLevel == 8){
-                return compareBothStraight(player1,player2);
+            }
+            if (cardLevel == 4 || cardLevel == 8) {
+                return compareBothStraight(player1, player2);
+            }
+            if (cardLevel == 5) {
+                return compareBothFlush(player1, player2);
+            }
+            if (cardLevel == 6) {
+                return compateBothFullHouse(player1, player2);
+            }
+            if (cardLevel == 7) {
+                return compateBothFourOfAKind(player1, player2);
             }
         }
         if (cardLevel > player2.getCardLevel()) {
@@ -36,21 +41,21 @@ public class CheckCard {
     private static String compateBothFourOfAKind(Player player1, Player player2) {
         Integer maxFourOfAKindValue1 = getMaxFourOfAKindValue(player1);
         Integer maxFourOfAKindValue2 = getMaxFourOfAKindValue(player2);
-        if(maxFourOfAKindValue1>maxFourOfAKindValue2){
+        if (maxFourOfAKindValue1 > maxFourOfAKindValue2) {
             return "palyer1";
-        }else {
+        } else {
             return "palyer2";
         }
     }
 
     private static Integer getMaxFourOfAKindValue(Player player) {
         List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(player));
-        Integer maxValue  = 2;
+        Integer maxValue = 2;
         Integer play1Value = playList.get(0);
         playList = playList.stream().filter(num -> num != play1Value).collect(Collectors.toList());
-        if(playList.size() == 1){
+        if (playList.size() == 1) {
             maxValue = play1Value;
-        }else {
+        } else {
             maxValue = playList.get(0);
         }
         return maxValue;
@@ -59,41 +64,43 @@ public class CheckCard {
     private static String compateBothFullHouse(Player player1, Player player2) {
         Integer player1MaxValue = getFullHouseMaxValue(player1);
         Integer player2MaxValue = getFullHouseMaxValue(player2);
-        if(player1MaxValue>player2MaxValue){
+        if (player1MaxValue > player2MaxValue) {
             return "palyer1";
-        }else {
+        } else {
             return "palyer2";
         }
     }
 
     private static Integer getFullHouseMaxValue(Player player) {
         List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(player));
-        Integer maxValue  = 2;
+        Integer maxValue = 2;
         Integer play1Value = playList.get(0);
         playList = playList.stream().filter(num -> num != play1Value).collect(Collectors.toList());
-        if(playList.size() == 2){
+        if (playList.size() == 2) {
             maxValue = play1Value;
-        }else {
+        } else {
             maxValue = playList.get(0);
         }
         return maxValue;
     }
 
     private static String compareBothFlush(Player player1, Player player2) {
-        return checkSameLevel(player1,player2);
+        return checkSameLevel(player1, player2);
     }
 
-    private static String compareBothStraight(Player player1, Player player2){
+    private static String compareBothStraight(Player player1, Player player2) {
         List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
         List<Integer> play2List = Arrays.asList(TransformUtil.getSortValues(player2));
-        if(play1List.get(4) == play2List.get(4)){
+        if (play1List.get(4) == play2List.get(4)) {
             return "Equal value";
-        }else if(play1List.get(4) > play2List.get(4)){
+        }
+        if (play1List.get(4) > play2List.get(4)) {
             return "palyer1";
-        }else {
+        } else {
             return "palyer2";
         }
     }
+
     private static String compareBothTwoPair(Player player1, Player player2) {
         Integer pairValue1Min = TransformUtil.findPairValue(player1);
         List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
@@ -110,12 +117,14 @@ public class CheckCard {
 
         if (pairValue1Max > pairValue1Max) {
             return "palyer1";
-        } else if (pairValue1Max < pairValue1Max) {
+        }
+        if (pairValue1Max < pairValue1Max) {
             return "palyer2";
         } else {
             if (pairValue1Min > pairValue2Min) {
                 return "palyer1";
-            } else if (pairValue1Min < pairValue2Min) {
+            }
+            if (pairValue1Min < pairValue2Min) {
                 return "palyer2";
             } else {
                 return TransformUtil.compareCardValuesList(play1List, play2List);

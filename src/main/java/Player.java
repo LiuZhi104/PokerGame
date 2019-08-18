@@ -62,16 +62,19 @@ public class Player {
                     this.cardLevel = STRAIGHT;
                 }
             }
-        } else if (noRepetValues.size() == 4) {
+        }
+        if (noRepetValues.size() == 4) {
             this.cardLevel = PAIR;
-        } else if (noRepetValues.size() == 3) {
+        }
+        if (noRepetValues.size() == 3) {
             List<Integer> playList = getFilterList();
             if (playList.size() == 2) {
                 this.cardLevel = THREE_OF_A_KIND;
             } else {
                 this.cardLevel = TWO_PAIR;
             }
-        } else if (noRepetValues.size() == 2) {
+        }
+        if (noRepetValues.size() == 2) {
             List<Integer> playList = getFilterList();
             if (playList.size() == 1) {
                 this.cardLevel = FOUR_OF_A_KIND;
