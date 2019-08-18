@@ -2,56 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f973b6-8746-430a-ad98-68323ada3f4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CheckCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Poker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/测试用例" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/CarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/CarDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/InOrderParkingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/ParkingBoy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/ParkingLot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/ParkingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/Receipt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parking/VipParkingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales/EcmService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales/Sales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesActivityReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesReportDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesReportData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parking/InOrderParkingStrategyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyJMockitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/CarDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/CarDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/InOrderParkingStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/ParkingBoy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/ParkingLot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/ParkingStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/Receipt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parking/VipParkingStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sales/EcmService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sales/Sales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesActivityReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesReportDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesReportData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/parking/InOrderParkingStrategyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/parking/ParkingLotTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sales/SalesAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Poker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,27 +42,57 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="420">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Poker.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="789">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="240">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -135,6 +120,10 @@
         <option value="$PROJECT_DIR$/src/main/java/sales/SalesDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CheckCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Poker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
       </list>
     </option>
   </component>
@@ -211,6 +200,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\代码\saleApp\src\main\java" />
+      <recent name="E:\代码\saleApp\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -318,15 +316,17 @@
       <option name="presentableId" value="Default" />
       <updated>1565342381216</updated>
     </task>
+    <task id="LOCAL-00001" summary="编写第一个测试用例的测试类，测试失败">
+      <created>1566102873611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566102873611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesAppTest_testGenerateReport - 2019.08.11 at 11h 10m 29s.xml">
-      <configuration name="SalesAppTest.testGenerateReport" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_testGenerateReport - 2019.08.11 at 11h 10m 50s.xml">
-      <configuration name="SalesAppTest.testGenerateReport" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SalesAppTest_testGenerateReport - 2019.08.11 at 11h 12m 02s.xml">
       <configuration name="SalesAppTest.testGenerateReport" configurationId="JUnit" />
     </history-entry>
@@ -351,12 +351,18 @@
     <history-entry file="SalesAppTest - 2019.08.11 at 11h 20m 18s.xml">
       <configuration name="SalesAppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SalesAppTest - 2019.08.18 at 12h 30m 52s.xml">
+      <configuration name="SalesAppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 12h 33m 45s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -367,7 +373,7 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04288939" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04288939" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,6 +392,10 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="编写第一个测试用例的测试类，测试失败" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写第一个测试用例的测试类，测试失败" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java">
@@ -741,23 +751,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Poker.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="240">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Poker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="420">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
