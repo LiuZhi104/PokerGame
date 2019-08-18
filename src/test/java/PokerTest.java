@@ -298,6 +298,26 @@ public class PokerTest {
         //then
         Assert.assertEquals("Equal value", winner);
     }
+    @Test
+    public void testFivePoker_both_flush_compare() {
+//        palyer1 2H 3H 5H 9H KH
+//        palyer2 2D 3D 5D 9D AD
+        //given
+        Player player1 = new Player("palyer1");
+        Player player2 = new Player("palyer2");
+        player1.setCardGroup(Arrays.asList(new Poker("H", "2"), new Poker("H", "3"),
+                new Poker("H", "5"), new Poker("H", "9"), new Poker("H", "K")));
+        player1.computeCardLevel();
+        player2.setCardGroup(Arrays.asList(new Poker("D", "2"), new Poker("D", "3"),
+                new Poker("D", "5"), new Poker("D", "9"), new Poker("D", "A")));
+        player2.computeCardLevel();
+
+        //when
+        String winner = CheckCard.getWinner(player1, player2);
+
+        //then
+        Assert.assertEquals("palyer2", winner);
+    }
 
 
 

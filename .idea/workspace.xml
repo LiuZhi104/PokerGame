@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24f973b6-8746-430a-ad98-68323ada3f4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CheckCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="279" column="5" selection-start-line="279" selection-start-column="5" selection-end-line="279" selection-end-column="5" />
+            <state relative-caret-position="8970">
+              <caret line="304" column="15" lean-forward="true" selection-start-line="304" selection-start-column="15" selection-end-line="304" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -99,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Poker.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/TransformUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CheckCard.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
       </list>
     </option>
   </component>
@@ -237,12 +237,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerTest.testFivePoker_same_straight">
-    <configuration name="PokerTest.testFivePoker_flush_compare_straight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PokerTest">
+    <configuration name="PokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testFivePoker_flush_compare_straight" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokerTest.testFivePoker_both_flush_compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PokerTest" />
+      <option name="METHOD_NAME" value="testFivePoker_both_flush_compare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,31 +267,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokerTest.testFivePoker_same_straight_and_diff_color" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PokerTest" />
+      <option name="METHOD_NAME" value="testFivePoker_same_straight_and_diff_color" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PokerTest.testFivePoker_same_three_of_kind_compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
       <option name="METHOD_NAME" value="testFivePoker_same_three_of_kind_compare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokerTest.testFivePoker_straight_compare_three_of_kind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokerGame" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testFivePoker_straight_compare_three_of_kind" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokerTest.testFivePoker_tree_of_kind_compare_two_pair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokerGame" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testFivePoker_tree_of_kind_compare_two_pair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokerTest" />
+        <item itemvalue="JUnit.PokerTest.testFivePoker_both_flush_compare" />
+        <item itemvalue="JUnit.PokerTest.testFivePoker_same_straight_and_diff_color" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_same_straight" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_same_three_of_kind_compare" />
-        <item itemvalue="JUnit.PokerTest.testFivePoker_flush_compare_straight" />
-        <item itemvalue="JUnit.PokerTest.testFivePoker_straight_compare_three_of_kind" />
-        <item itemvalue="JUnit.PokerTest.testFivePoker_tree_of_kind_compare_two_pair" />
       </list>
     </recent_temporary>
   </component>
@@ -524,25 +523,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566111604608</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="在CheckCard类中的getWinner方法中，添加比较level都为Straight，使测试通过">
+      <created>1566111670327</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1566111670327</updated>
+    </task>
+    <task id="LOCAL-00026" summary="添加相同的顺序但是花色不同的牌的Test，测试通过">
+      <created>1566111742816</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1566111742816</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest_testFivePoker_tree_of_kind_compare_two_pair - 2019.08.18 at 14h 36m 26s.xml">
-      <configuration name="PokerTest.testFivePoker_tree_of_kind_compare_two_pair" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_tree_of_kind_compare_two_pair - 2019.08.18 at 14h 36m 33s.xml">
-      <configuration name="PokerTest.testFivePoker_tree_of_kind_compare_two_pair" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_straight_compare_three_of_kind - 2019.08.18 at 14h 40m 11s.xml">
-      <configuration name="PokerTest.testFivePoker_straight_compare_three_of_kind" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_straight_compare_three_of_kind - 2019.08.18 at 14h 42m 44s.xml">
-      <configuration name="PokerTest.testFivePoker_straight_compare_three_of_kind" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testFivePoker_flush_compare_straight - 2019.08.18 at 14h 44m 44s.xml">
-      <configuration name="PokerTest.testFivePoker_flush_compare_straight" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest_testFivePoker_same_three_of_kind_compare - 2019.08.18 at 14h 47m 11s.xml">
       <configuration name="PokerTest.testFivePoker_same_three_of_kind_compare" configurationId="JUnit" />
     </history-entry>
@@ -558,12 +556,26 @@
     <history-entry file="PokerTest_testFivePoker_same_straight - 2019.08.18 at 14h 59m 13s.xml">
       <configuration name="PokerTest.testFivePoker_same_straight" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest_testFivePoker_same_straight - 2019.08.18 at 15h 00m 47s.xml">
+      <configuration name="PokerTest.testFivePoker_same_straight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_same_straight_and_diff_color - 2019.08.18 at 15h 01m 53s.xml">
+      <configuration name="PokerTest.testFivePoker_same_straight_and_diff_color" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_both_flush_compare - 2019.08.18 at 15h 03m 28s.xml">
+      <configuration name="PokerTest.testFivePoker_both_flush_compare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_both_flush_compare - 2019.08.18 at 15h 04m 14s.xml">
+      <configuration name="PokerTest.testFivePoker_both_flush_compare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 15h 04m 24s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13572961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -574,7 +586,7 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.46388263" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.46388263" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +594,7 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005365" side_tool="true" weight="0.5214447" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.261851" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -594,10 +606,34 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="编写第一个测试用例的测试类，测试失败" />
-    <MESSAGE value="由第一个测试用例，驱动出写Poker类，CheckCard类，Player类的实现，并且测试通过" />
     <MESSAGE value="比较两张牌的测试用例完成，测试失败" />
     <MESSAGE value="由testTwoPoker测试，驱动出checkCard的排序最大值方法，改变getWinner方法，改变以后两个测试都通过" />
     <MESSAGE value="由testFivePoker_and_no_pair_is_easiest测试，测试通过" />
@@ -621,7 +657,9 @@
     <MESSAGE value="改变checkCard中的方法，添加cardLevel都为Tree_of_kind的方法体" />
     <MESSAGE value="在测试通过的前提下，重构CheckCard的getWinner方法，把方法抽离出来" />
     <MESSAGE value="增加Same_Straight的测试，比较level都是Straight的牌，测试失败" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Same_Straight的测试，比较level都是Straight的牌，测试失败" />
+    <MESSAGE value="在CheckCard类中的getWinner方法中，添加比较level都为Straight，使测试通过" />
+    <MESSAGE value="添加相同的顺序但是花色不同的牌的Test，测试通过" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加相同的顺序但是花色不同的牌的Test，测试通过" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java">
@@ -1025,13 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="279" column="5" selection-start-line="279" selection-start-column="5" selection-end-line="279" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -1039,6 +1070,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8970">
+          <caret line="304" column="15" lean-forward="true" selection-start-line="304" selection-start-column="15" selection-end-line="304" selection-end-column="15" />
         </state>
       </provider>
     </entry>
