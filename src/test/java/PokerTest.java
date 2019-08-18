@@ -321,7 +321,7 @@ public class PokerTest {
     @Test
     public void testFivePoker_flush_compare_full_hose() {
 //        palyer1 2H 3H 5H 9H KH
-//        palyer2 3H 3D 5S 5C 3S
+//        palyer2 3H 3D 5S 5C 3Sｕ
         //given
         Player player1 = new Player("palyer1");
         Player player2 = new Player("palyer2");
@@ -330,6 +330,27 @@ public class PokerTest {
         player1.computeCardLevel();
         player2.setCardGroup(Arrays.asList(new Poker("H", "3"), new Poker("D", "3"),
                 new Poker("S", "5"), new Poker("C", "5"), new Poker("S", "3")));
+        player2.computeCardLevel();
+
+        //when
+        String winner = CheckCard.getWinner(player1, player2);
+
+        //then
+        Assert.assertEquals("palyer2", winner);
+    }
+
+    @Test
+    public void testFivePoker_both_full_house() {
+//        palyer1 4H 4D 5S 5C 4D
+//        palyer2 7H 7D 3S 7C 3D
+        //given
+        Player player1 = new Player("palyer1");
+        Player player2 = new Player("palyer2");
+        player1.setCardGroup(Arrays.asList(new Poker("H", "4"), new Poker("D", "4"),
+                new Poker("S", "5"), new Poker("C", "5"), new Poker("D", "4")));
+        player1.computeCardLevel();
+        player2.setCardGroup(Arrays.asList(new Poker("H", "7"), new Poker("D", "7"),
+                new Poker("S", "3"), new Poker("C", "7"), new Poker("D", "3")));
         player2.computeCardLevel();
 
         //when
