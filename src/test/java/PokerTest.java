@@ -178,5 +178,4 @@ public class PokerTest {
         Assert.assertEquals("palyer2", winner);
     }
 
-
 }

@@ -7,7 +7,9 @@ public class CheckCard {
 
     public static String getWinner(Player player1, Player player2) {
         if(player1.getCardLevel()==player2.getCardLevel()){
-            if(player1.getCardLevel()==1){
+            if(player1.getCardLevel() == 0){
+                return checkSameLevel(player1,player2);
+            }else if(player1.getCardLevel()==1){
                 return checkSameLevel(player1,player2);
             }else if(player1.getCardLevel()==2){
                 Integer pairValue1 = TransformUtil.findPairValue(player1);
