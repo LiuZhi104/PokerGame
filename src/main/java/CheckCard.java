@@ -41,6 +41,10 @@ public class CheckCard {
     private static String compateBothFourOfAKind(Player player1, Player player2) {
         Integer maxFourOfAKindValue1 = getMaxFourOfAKindValue(player1);
         Integer maxFourOfAKindValue2 = getMaxFourOfAKindValue(player2);
+        return getResult(maxFourOfAKindValue1, maxFourOfAKindValue2);
+    }
+
+    private static String getResult(Integer maxFourOfAKindValue1, Integer maxFourOfAKindValue2) {
         if (maxFourOfAKindValue1 > maxFourOfAKindValue2) {
             return "palyer1";
         } else {
@@ -64,11 +68,7 @@ public class CheckCard {
     private static String compateBothFullHouse(Player player1, Player player2) {
         Integer player1MaxValue = getFullHouseMaxValue(player1);
         Integer player2MaxValue = getFullHouseMaxValue(player2);
-        if (player1MaxValue > player2MaxValue) {
-            return "palyer1";
-        } else {
-            return "palyer2";
-        }
+        return getResult(player1MaxValue, player2MaxValue);
     }
 
     private static Integer getFullHouseMaxValue(Player player) {
@@ -94,11 +94,7 @@ public class CheckCard {
         if (play1List.get(4) == play2List.get(4)) {
             return "Equal value";
         }
-        if (play1List.get(4) > play2List.get(4)) {
-            return "palyer1";
-        } else {
-            return "palyer2";
-        }
+        return getResult(play1List.get(4), play2List.get(4));
     }
 
     private static String compareBothTwoPair(Player player1, Player player2) {
@@ -142,7 +138,8 @@ public class CheckCard {
         play2List = play2List.stream().filter(num -> num != pairValue2).collect(Collectors.toList());
         if (pairValue1 > pairValue2) {
             return "palyer1";
-        } else if (pairValue1 < pairValue2) {
+        }
+        if (pairValue1 < pairValue2) {
             return "palyer2";
         }
         return TransformUtil.compareCardValuesList(play1List, play2List);
