@@ -44,12 +44,12 @@ public class Player {
     }
 
     public void computeCardLevel() {
-        Integer[] palyerValues = TransformUtil.playerGetSortValues(this.cardGroup);
+        Integer[] palyerValues = TransformUtil.getSortValues(this);
         Set<Integer> noRepetValues = new HashSet<>(Arrays.asList(palyerValues));
         if (noRepetValues.size() == 5) {
             List<String> allCardColor = TransformUtil.getAllCardColor(this);
             String sameColor = allCardColor.get(0);
-            allCardColor = allCardColor.stream().filter(color -> color != sameColor).collect(Collectors.toList());
+            allCardColor = allCardColor.stream().filter(color -> !color.equals(sameColor)).collect(Collectors.toList());
             if (allCardColor.size() == 0) {
                 if (palyerValues[4] - palyerValues[0] == 4) {
                     this.cardLevel = STARIGHT_FLUSH;
@@ -87,7 +87,7 @@ public class Player {
     private List<Integer> getFilterList() {
         Integer pairValue = TransformUtil.findPairValue(this);
         List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(this));
-        playList = playList.stream().filter(num -> num != pairValue).collect(Collectors.toList());
+        playList = playList.stream().filter(num -> !num.equals(pairValue)).collect(Collectors.toList());
         return playList;
     }
 }

@@ -4,19 +4,19 @@ import java.util.List;
 
 public class TransformUtil {
     public static int transformValue(String cardVlue) {
-        if (cardVlue == "T") {
+        if (cardVlue.equals("T")) {
             return 10;
         }
-        if (cardVlue == "J") {
+        if (cardVlue.equals("J")) {
             return 11;
         }
-        if (cardVlue == "Q") {
+        if (cardVlue.equals("Q")) {
             return 12;
         }
-        if (cardVlue == "K") {
+        if (cardVlue.equals("K")) {
             return 13;
         }
-        if (cardVlue == "A") {
+        if (cardVlue.equals("A")) {
             return 14;
         }
         return Integer.valueOf(cardVlue);
@@ -32,33 +32,12 @@ public class TransformUtil {
         return cardValues;
     }
 
-    public static Integer[] playerGetSortValues(List<Poker> cardGroup) {
-        List<Integer> cardGroupValues = new ArrayList<>();
-        for (int i = 0; i < cardGroup.size(); i++) {
-            cardGroupValues.add(transformValue(cardGroup.get(i).getCardValue()));
-        }
-        Integer[] cardValues = cardGroupValues.toArray(new Integer[cardGroupValues.size()]);
-        Arrays.sort(cardValues);
-        return cardValues;
-    }
-
-
-    public static String compareCardValuesList(List<Integer> palyer1Values, List<Integer> palyer2Values) {
-        for (int i = palyer1Values.size() - 1; i >= 0; i--) {
-            if (palyer1Values.get(i) > palyer2Values.get(i)) {
-                return "palyer1";
-            } else if (palyer1Values.get(i) < palyer2Values.get(i)) {
-                return "palyer2";
-            }
-        }
-        return "Equal value";
-    }
-
     public static String compareCardValues(Integer[] palyer1Values, Integer[] palyer2Values) {
         for (int i = palyer1Values.length - 1; i >= 0; i--) {
             if (palyer1Values[i] > palyer2Values[i]) {
                 return "palyer1";
-            } else if (palyer1Values[i] < palyer2Values[i]) {
+            }
+            if (palyer1Values[i] < palyer2Values[i]) {
                 return "palyer2";
             }
         }
@@ -69,7 +48,7 @@ public class TransformUtil {
         Integer[] palyer1Values = getSortValues(player);
         for (int i = 0; i < palyer1Values.length; i++) {
             for (int j = i + 1; j < palyer1Values.length; j++) {
-                if (palyer1Values[i] == palyer1Values[j]) {
+                if (palyer1Values[i].equals(palyer1Values[j])) {
                     return palyer1Values[i];
                 }
             }
@@ -80,7 +59,7 @@ public class TransformUtil {
     public static Integer findPairValueMax(List<Integer> palyer1Values) {
         for (int i = 0; i < palyer1Values.size(); i++) {
             for (int j = i + 1; j < palyer1Values.size(); j++) {
-                if (palyer1Values.get(i) == palyer1Values.get(j)) {
+                if (palyer1Values.get(i).equals(palyer1Values.get(j))) {
                     return palyer1Values.get(i);
                 }
             }
