@@ -399,5 +399,25 @@ public class PokerTest {
         //then
         Assert.assertEquals("palyer2", winner);
     }
+    @Test
+    public void testFivePoker_four_of_a_kind_compare_straight_flush() {
+//        palyer1 3H 3D 3S 5C 3D
+//        palyer2 2H 3H 4H 5H 6H
+        //given
+        Player player1 = new Player("palyer1");
+        Player player2 = new Player("palyer2");
+        player1.setCardGroup(Arrays.asList(new Poker("H", "3"), new Poker("D", "3"),
+                new Poker("S", "3"), new Poker("C", "5"), new Poker("C", "3")));
+        player1.computeCardLevel();
+        player2.setCardGroup(Arrays.asList(new Poker("H", "2"), new Poker("H", "3"),
+                new Poker("H", "4"), new Poker("H", "5"), new Poker("H", "6")));
+        player2.computeCardLevel();
+
+        //when
+        String winner = CheckCard.getWinner(player1, player2);
+
+        //then
+        Assert.assertEquals("palyer2", winner);
+    }
 
 }
