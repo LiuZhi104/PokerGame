@@ -319,7 +319,7 @@ public class PokerTest {
         Assert.assertEquals("palyer2", winner);
     }
     @Test
-    public void testFivePoker_flush_compare_full_house() {
+    public void testFivePoker_flush_compare_full_hose() {
 //        palyer1 2H 3H 5H 9H KH
 //        palyer2 3H 3D 5S 5C 3S
         //given

@@ -65,16 +65,26 @@ public class Player {
         } else if (noRepetValues.size() == 4) {
             this.cardLevel = PAIR;
         } else if (noRepetValues.size() == 3) {
-            Integer pairValue = TransformUtil.findPairValue(this);
-            List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(this));
-            playList = playList.stream().filter(num -> num != pairValue).collect(Collectors.toList());
+            List<Integer> playList = getFilterList();
             if (playList.size() == 2) {
                 this.cardLevel = THREE_OF_A_KIND;
             } else {
                 this.cardLevel = TWO_PAIR;
             }
         } else if (noRepetValues.size() == 2) {
-
+            List<Integer> playList = getFilterList();
+            if (playList.size() == 1) {
+                this.cardLevel = FOUR_OF_A_KIND;
+            } else {
+                this.cardLevel = FULL_HOUSE;
+            }
         }
+    }
+
+    private List<Integer> getFilterList() {
+        Integer pairValue = TransformUtil.findPairValue(this);
+        List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(this));
+        playList = playList.stream().filter(num -> num != pairValue).collect(Collectors.toList());
+        return playList;
     }
 }
