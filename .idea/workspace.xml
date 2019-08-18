@@ -239,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerTest.testFivePoker_both_full_house">
+  <component name="RunManager" selected="JUnit.PokerTest.testFivePoker_both_four_of_a_kind">
     <configuration name="PokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -249,11 +249,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerTest.testFivePoker_both_flush_compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.testFivePoker_both_four_of_a_kind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testFivePoker_both_flush_compare" />
+      <option name="METHOD_NAME" value="testFivePoker_both_four_of_a_kind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -279,11 +279,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerTest.testFivePoker_same_straight_and_diff_color" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.testFivePoker_full_house_compare_four_of_a_kind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testFivePoker_same_straight_and_diff_color" />
+      <option name="METHOD_NAME" value="testFivePoker_full_house_compare_four_of_a_kind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokerTest.testFivePoker_both_four_of_a_kind" />
+        <item itemvalue="JUnit.PokerTest.testFivePoker_full_house_compare_four_of_a_kind" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_both_full_house" />
         <item itemvalue="JUnit.PokerTest" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_flush_compare_full_hose" />
-        <item itemvalue="JUnit.PokerTest.testFivePoker_both_flush_compare" />
-        <item itemvalue="JUnit.PokerTest.testFivePoker_same_straight_and_diff_color" />
       </list>
     </recent_temporary>
   </component>
