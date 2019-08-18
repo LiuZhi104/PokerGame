@@ -10,66 +10,62 @@ public class CheckCard {
             if (player1.getCardLevel() == 0) {
                 return checkSameLevel(player1, player2);
             } else if (player1.getCardLevel() == 1) {
-                Integer pairValue1 = TransformUtil.findPairValue(player1);
-                List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
-                play1List = play1List.stream().filter(num -> num != pairValue1).collect(Collectors.toList());
-
-                Integer pairValue2 = TransformUtil.findPairValue(player2);
-                List<Integer> play2List = Arrays.asList(TransformUtil.getSortValues(player2));
-                play2List = play2List.stream().filter(num -> num != pairValue2).collect(Collectors.toList());
-                if (pairValue1 > pairValue2) {
-                    return "palyer1";
-                } else if (pairValue1 < pairValue2) {
-                    return "palyer2";
-                }
-                return TransformUtil.compareCardValuesList(play1List, play2List);
+                return compareSameLevel(player1, player2);
             } else if (player1.getCardLevel() == 2) {
-                Integer pairValue1Min = TransformUtil.findPairValue(player1);
-                List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
-                play1List = play1List.stream().filter(num -> num != pairValue1Min).collect(Collectors.toList());
-                Integer pairValue1Max = TransformUtil.findPairValueMax(play1List);
-                play1List = play1List.stream().filter(num -> num != pairValue1Max).collect(Collectors.toList());
-
-
-                Integer pairValue2Min = TransformUtil.findPairValue(player2);
-                List<Integer> play2List = Arrays.asList(TransformUtil.getSortValues(player2));
-                play2List = play2List.stream().filter(num -> num != pairValue2Min).collect(Collectors.toList());
-                Integer pairValue2Max = TransformUtil.findPairValueMax(play2List);
-                play2List = play2List.stream().filter(num -> num != pairValue2Max).collect(Collectors.toList());
-
-                if (pairValue1Max > pairValue1Max) {
-                    return "palyer1";
-                } else if (pairValue1Max < pairValue1Max) {
-                    return "palyer2";
-                } else {
-                    if (pairValue1Min > pairValue2Min) {
-                        return "palyer1";
-                    } else if (pairValue1Min < pairValue2Min) {
-                        return "palyer2";
-                    } else {
-                        return TransformUtil.compareCardValuesList(play1List, play2List);
-                    }
-                }
+                return compareSameTwoPair(player1, player2);
             } else if (player1.getCardLevel() == 3) {
-                Integer pairValue1 = TransformUtil.findPairValue(player1);
-                List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
-                play1List = play1List.stream().filter(num -> num != pairValue1).collect(Collectors.toList());
-
-                Integer pairValue2 = TransformUtil.findPairValue(player2);
-                List<Integer> play2List = Arrays.asList(TransformUtil.getSortValues(player2));
-                play2List = play2List.stream().filter(num -> num != pairValue2).collect(Collectors.toList());
-                if (pairValue1 > pairValue2) {
-                    return "palyer1";
-                } else if (pairValue1 < pairValue2) {
-                    return "palyer2";
-                }
-                return TransformUtil.compareCardValuesList(play1List, play2List);
+                return compareSameLevel(player1, player2);
             }
         }
         if (player1.getCardLevel() > player2.getCardLevel()) {
             return "palyer1";
         }
         return "palyer2";
+    }
+
+    private static String compareSameTwoPair(Player player1, Player player2) {
+        Integer pairValue1Min = TransformUtil.findPairValue(player1);
+        List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
+        play1List = play1List.stream().filter(num -> num != pairValue1Min).collect(Collectors.toList());
+        Integer pairValue1Max = TransformUtil.findPairValueMax(play1List);
+        play1List = play1List.stream().filter(num -> num != pairValue1Max).collect(Collectors.toList());
+
+
+        Integer pairValue2Min = TransformUtil.findPairValue(player2);
+        List<Integer> play2List = Arrays.asList(TransformUtil.getSortValues(player2));
+        play2List = play2List.stream().filter(num -> num != pairValue2Min).collect(Collectors.toList());
+        Integer pairValue2Max = TransformUtil.findPairValueMax(play2List);
+        play2List = play2List.stream().filter(num -> num != pairValue2Max).collect(Collectors.toList());
+
+        if (pairValue1Max > pairValue1Max) {
+            return "palyer1";
+        } else if (pairValue1Max < pairValue1Max) {
+            return "palyer2";
+        } else {
+            if (pairValue1Min > pairValue2Min) {
+                return "palyer1";
+            } else if (pairValue1Min < pairValue2Min) {
+                return "palyer2";
+            } else {
+                return TransformUtil.compareCardValuesList(play1List, play2List);
+            }
+        }
+    }
+
+    private static String compareSameLevel(Player player1, Player player2) {
+        Integer pairValue1 = TransformUtil.findPairValue(player1);
+        List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
+        play1List = play1List.stream().filter(num -> num != pairValue1).collect(Collectors.toList());
+
+        Integer pairValue2 = TransformUtil.findPairValue(player2);
+        List<Integer> play2List = Arrays.asList(TransformUtil.getSortValues(player2));
+        play2List = play2List.stream().filter(num -> num != pairValue2).collect(Collectors.toList());
+        if (pairValue1 > pairValue2) {
+            return "palyer1";
+        } else if (pairValue1 < pairValue2) {
+            return "palyer2";
+        }
+        return TransformUtil.compareCardValuesList(play1List, play2List);
     }
 
     public static String checkSameLevel(Player player1, Player player2) {
