@@ -46,9 +46,14 @@ public class Player {
         Integer[] palyerValues = TransformUtil.playerGetSortValues(this.cardGroup);
         Set<Integer> noRepetValues = new HashSet<>(Arrays.asList(palyerValues));
         if(noRepetValues.size() == 4){
-            this.cardLevel = TWO_PAIR;
+            this.cardLevel = PAIR;
         }else if(noRepetValues.size() == 3){
-
+            Integer pairValue1 = TransformUtil.findPairValue(this);
+            List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(this));
+            if(play1List.size() == 2){
+                this.cardLevel = THREE_OF_A_KIND;
+            }
+            this.cardLevel = TWO_PAIR;
         }else if (noRepetValues.size() == 2){
 
         }
