@@ -1,9 +1,17 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Player {
     private String name;
     private List<Poker> cardGroup = new ArrayList<>();
+    private int cardLevel = 0;
+
+    public int getCardLevel() {
+        return cardLevel;
+    }
+
+    public void setCardLevel(int cardLevel) {
+        this.cardLevel = cardLevel;
+    }
 
     public Player(String name) {
         this.name = name;
@@ -23,5 +31,12 @@ public class Player {
 
     public void setCardGroup(List<Poker> cardGroup) {
         this.cardGroup = cardGroup;
+    }
+    public void computeCardLevel(){
+        Integer[] palyerValues = TransformUtil.playerGetSortValues(this.cardGroup);
+        Set<Integer> noRepetValues = new HashSet<>(Arrays.asList(palyerValues));
+        if(noRepetValues.size() < palyerValues.length){
+            this.cardLevel = 2;
+        }
     }
 }

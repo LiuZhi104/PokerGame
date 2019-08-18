@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f973b6-8746-430a-ad98-68323ada3f4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TransformUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +43,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TransformUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -47,20 +60,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Poker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#229#230#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
@@ -88,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="348">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +136,11 @@
         <option value="$PROJECT_DIR$/src/main/java/sales/SalesDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Poker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CheckCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TransformUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
       </list>
     </option>
   </component>
@@ -222,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerTest.testFivePoker_and_no_pair_all_same">
+  <component name="RunManager" selected="JUnit.PokerTest.testFivePoker_and_two_pair">
     <configuration name="PokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -262,11 +279,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerTest.testTwoPoker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.testFivePoker_and_two_pair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="testTwoPoker" />
+      <option name="METHOD_NAME" value="testFivePoker_and_two_pair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokerTest.testFivePoker_and_two_pair" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_and_no_pair_all_same" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_and_no_pair_one_by_one_compare" />
         <item itemvalue="JUnit.PokerTest" />
         <item itemvalue="JUnit.PokerTest.testFivePoker_and_no_pair_is_easiest" />
-        <item itemvalue="JUnit.PokerTest.testTwoPoker" />
       </list>
     </recent_temporary>
   </component>
@@ -389,25 +406,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566106419436</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="编写没有pair和flush的五张牌相等的测试，并且在上个测试重构的方法中实现，测试通过">
+      <created>1566106621628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566106621628</updated>
+    </task>
+    <task id="LOCAL-00009" summary="由testFivePoker_and_two_pair测试，测试失败">
+      <created>1566106837629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566106837629</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest - 2019.08.18 at 12h 33m 45s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest - 2019.08.18 at 12h 40m 40s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testTwoPoker - 2019.08.18 at 12h 44m 55s.xml">
-      <configuration name="PokerTest.testTwoPoker" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest - 2019.08.18 at 12h 45m 44s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_testTwoPoker - 2019.08.18 at 13h 08m 21s.xml">
-      <configuration name="PokerTest.testTwoPoker" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest_testTwoPoker - 2019.08.18 at 13h 18m 30s.xml">
       <configuration name="PokerTest.testTwoPoker" configurationId="JUnit" />
     </history-entry>
@@ -422,6 +438,21 @@
     </history-entry>
     <history-entry file="PokerTest_testFivePoker_and_no_pair_one_by_one_compare - 2019.08.18 at 13h 30m 24s.xml">
       <configuration name="PokerTest.testFivePoker_and_no_pair_one_by_one_compare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_and_no_pair_all_same - 2019.08.18 at 13h 34m 53s.xml">
+      <configuration name="PokerTest.testFivePoker_and_no_pair_all_same" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_and_two_pair - 2019.08.18 at 13h 38m 00s.xml">
+      <configuration name="PokerTest.testFivePoker_and_two_pair" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_and_two_pair - 2019.08.18 at 13h 46m 11s.xml">
+      <configuration name="PokerTest.testFivePoker_and_two_pair" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_and_two_pair - 2019.08.18 at 13h 48m 52s.xml">
+      <configuration name="PokerTest.testFivePoker_and_two_pair" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_testFivePoker_and_two_pair - 2019.08.18 at 13h 49m 18s.xml">
+      <configuration name="PokerTest.testFivePoker_and_two_pair" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -467,7 +498,9 @@
     <MESSAGE value="由testFivePoker_and_no_pair_is_easiest测试，测试通过" />
     <MESSAGE value="由testFivePoker_and_no_pair_one_by_one_compare测试，测试不通过" />
     <MESSAGE value="修改并在checkCard添加方法，测试通过" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改并在checkCard添加方法，测试通过" />
+    <MESSAGE value="编写没有pair和flush的五张牌相等的测试，并且在上个测试重构的方法中实现，测试通过" />
+    <MESSAGE value="由testFivePoker_and_two_pair测试，测试失败" />
+    <option name="LAST_COMMIT_MESSAGE" value="由testFivePoker_and_two_pair测试，测试失败" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java">
@@ -825,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#229#230#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
@@ -840,40 +873,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="348">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CheckCard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="360">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TransformUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
