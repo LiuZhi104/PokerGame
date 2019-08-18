@@ -76,4 +76,14 @@ public class TransformUtil {
         }
         return null;
     }
+    public static  Integer findPairValueMax(List<Integer> palyer1Values ){
+        for(int i=0;i < palyer1Values.size();i++){
+            for(int j = i+1; j< palyer1Values.size();j++ ){
+                if(palyer1Values.get(i)==palyer1Values.get(j)){
+                    return  palyer1Values.get(i);
+                }
+            }
+        }
+        return null;
+    }
 }

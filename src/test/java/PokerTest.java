@@ -156,6 +156,7 @@ public class PokerTest {
         //then
         Assert.assertEquals("palyer1", winner);
     }
+
     @Test
     public void testFivePoker_two_pair_compare(){
         //given
@@ -167,7 +168,7 @@ public class PokerTest {
                 new Poker("S", "5"), new Poker("C", "5"), new Poker("D", "K")));
         player1.computeCardLevel();
         player2.setCardGroup(Arrays.asList(new Poker("H", "3"), new Poker("D", "3"),
-                new Poker("S", "5"), new Poker("C", "9"), new Poker("D", "A")));
+                new Poker("S", "5"), new Poker("C", "5"), new Poker("D", "A")));
         player2.computeCardLevel();
 
         //when
