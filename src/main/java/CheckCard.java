@@ -15,6 +15,8 @@ public class CheckCard {
                 return compareSameTwoPair(player1, player2);
             } else if (player1.getCardLevel() == 3) {
                 return compareSameLevel(player1, player2);
+            }else if(player1.getCardLevel() == 4){
+                return compareSameStraight(player1,player2);
             }
         }
         if (player1.getCardLevel() > player2.getCardLevel()) {
@@ -22,7 +24,17 @@ public class CheckCard {
         }
         return "palyer2";
     }
-
+    private static String compareSameStraight(Player player1, Player player2){
+        List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
+        List<Integer> play2List = Arrays.asList(TransformUtil.getSortValues(player2));
+        if(play1List.get(4) == play2List.get(4)){
+            return "Equal value";
+        }else if(play1List.get(4) > play2List.get(4)){
+            return "palyer1";
+        }else {
+            return "palyer2";
+        }
+    }
     private static String compareSameTwoPair(Player player1, Player player2) {
         Integer pairValue1Min = TransformUtil.findPairValue(player1);
         List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
