@@ -420,4 +420,25 @@ public class PokerTest {
         Assert.assertEquals("palyer2", winner);
     }
 
+    @Test
+    public void testFivePoker_both_straight_flush() {
+//        palyer1 4S 5S 6S 7S 8S
+//        palyer2 2H 3H 4H 5H 6H
+        //given
+        Player player1 = new Player("palyer1");
+        Player player2 = new Player("palyer2");
+        player1.setCardGroup(Arrays.asList(new Poker("S", "4"), new Poker("S", "5"),
+                new Poker("S", "6"), new Poker("S", "7"), new Poker("S", "8")));
+        player1.computeCardLevel();
+        player2.setCardGroup(Arrays.asList(new Poker("H", "2"), new Poker("H", "3"),
+                new Poker("H", "4"), new Poker("H", "5"), new Poker("H", "6")));
+        player2.computeCardLevel();
+
+        //when
+        String winner = CheckCard.getWinner(player1, player2);
+
+        //then
+        Assert.assertEquals("palyer1", winner);
+    }
+
 }
