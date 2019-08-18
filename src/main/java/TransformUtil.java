@@ -43,6 +43,17 @@ public class TransformUtil {
     }
 
 
+    public static String compareCardValuesList( List<Integer> palyer1Values, List<Integer> palyer2Values){
+        for(int i = palyer1Values.size()-1 ;i >= 0 ;i--){
+            if(palyer1Values.get(i)>palyer2Values.get(i)){
+                return "palyer1";
+            }else if(palyer1Values.get(i)< palyer2Values.get(i)){
+                return "palyer2";
+            }
+        }
+        return "Equal value";
+    }
+
     public static String compareCardValues( Integer[] palyer1Values, Integer[] palyer2Values){
         for(int i = palyer1Values.length-1 ;i >= 0 ;i--){
             if(palyer1Values[i]>palyer2Values[i]){
@@ -54,4 +65,15 @@ public class TransformUtil {
         return "Equal value";
     }
 
+    public static  Integer findPairValue(Player player){
+        Integer[] palyer1Values = getSortValues(player);
+        for(int i=0;i < palyer1Values.length;i++){
+            for(int j = i+1; j< palyer1Values.length;j++ ){
+                if(palyer1Values[i]==palyer1Values[j]){
+                    return  palyer1Values[i];
+                }
+            }
+        }
+        return null;
+    }
 }

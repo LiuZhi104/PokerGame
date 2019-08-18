@@ -113,6 +113,27 @@ public class PokerTest {
 
         //then
         Assert.assertEquals("palyer1", winner);
-
     }
+
+    @Test
+    public void testFivePoker_and_same_two_pair() {
+        //given
+        //palyer1 3H 3D 5S 9D KD
+        //palyer2 3H 3D 5S 9C AD
+        Player player1 = new Player("palyer1");
+        Player player2 = new Player("palyer2");
+        player1.setCardGroup(Arrays.asList(new Poker("H", "3"), new Poker("D", "3"),
+                new Poker("S", "5"), new Poker("D", "9"), new Poker("D", "K")));
+        player1.computeCardLevel();
+        player2.setCardGroup(Arrays.asList(new Poker("H", "3"), new Poker("D", "3"),
+                new Poker("S", "5"), new Poker("C", "9"), new Poker("D", "A")));
+        player2.computeCardLevel();
+
+        //when
+        String winner = CheckCard.getWinner(player1, player2);
+
+        //then
+        Assert.assertEquals("palyer2", winner);
+    }
+
 }
