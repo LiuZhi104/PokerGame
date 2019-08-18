@@ -23,6 +23,8 @@ public class CheckCard {
                 return compateBothFullHouse(player1,player2);
             }else if(cardLevel == 7){
                 return compateBothFourOfAKind(player1,player2);
+            }else if(cardLevel == 8){
+                return compareBothStraight(player1,player2);
             }
         }
         if (cardLevel > player2.getCardLevel()) {
