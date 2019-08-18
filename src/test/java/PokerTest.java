@@ -73,4 +73,22 @@ public class PokerTest {
 
     }
 
+    @Test
+    public void testFivePoker_and_no_pair_all_same(){
+        //given
+        Player player1 = new Player("palyer1");
+        Player player2 = new Player("palyer2");
+        player1.setCardGroup(Arrays.asList(new Poker("H","2"),new Poker("D","3"),
+                new Poker("S","5"),new Poker("C","9"),new Poker("D","K") ));
+        player2.setCardGroup(Arrays.asList(new Poker("H","2"),new Poker("D","3"),
+                new Poker("S","5"),new Poker("C","9"),new Poker("D","K") ));
+
+        //when
+        String winner =  CheckCard.getWinner(player1,player2);
+
+        //then
+        Assert.assertEquals("Equal value",winner);
+
+    }
+
 }
