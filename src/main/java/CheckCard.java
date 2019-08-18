@@ -21,12 +21,37 @@ public class CheckCard {
                 return compareBothFlush(player1,player2);
             }else if(cardLevel == 6){
                 return compateBothFullHouse(player1,player2);
+            }else if(cardLevel == 7){
+                return compateBothFourOfAKind(player1,player2);
             }
         }
         if (cardLevel > player2.getCardLevel()) {
             return "palyer1";
         }
         return "palyer2";
+    }
+
+    private static String compateBothFourOfAKind(Player player1, Player player2) {
+        Integer maxFourOfAKindValue1 = getMaxFourOfAKindValue(player1);
+        Integer maxFourOfAKindValue2 = getMaxFourOfAKindValue(player2);
+        if(maxFourOfAKindValue1>maxFourOfAKindValue2){
+            return "palyer1";
+        }else {
+            return "palyer2";
+        }
+    }
+
+    private static Integer getMaxFourOfAKindValue(Player player) {
+        List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(player));
+        Integer maxValue  = 2;
+        Integer play1Value = playList.get(0);
+        playList = playList.stream().filter(num -> num != play1Value).collect(Collectors.toList());
+        if(playList.size() == 1){
+            maxValue = play1Value;
+        }else {
+            maxValue = playList.get(0);
+        }
+        return maxValue;
     }
 
     private static String compateBothFullHouse(Player player1, Player player2) {
@@ -39,8 +64,8 @@ public class CheckCard {
         }
     }
 
-    private static Integer getFullHouseMaxValue(Player player1) {
-        List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(player1));
+    private static Integer getFullHouseMaxValue(Player player) {
+        List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(player));
         Integer maxValue  = 2;
         Integer play1Value = playList.get(0);
         playList = playList.stream().filter(num -> num != play1Value).collect(Collectors.toList());
