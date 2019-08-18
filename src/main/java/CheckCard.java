@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,11 +11,13 @@ public class CheckCard {
             } else if (player1.getCardLevel() == 1) {
                 return compareSameLevel(player1, player2);
             } else if (player1.getCardLevel() == 2) {
-                return compareSameTwoPair(player1, player2);
+                return compareBothTwoPair(player1, player2);
             } else if (player1.getCardLevel() == 3) {
                 return compareSameLevel(player1, player2);
             }else if(player1.getCardLevel() == 4){
-                return compareSameStraight(player1,player2);
+                return compareBothStraight(player1,player2);
+            }else if(player1.getCardLevel() == 5){
+                return compareBothFlush(player1,player2);
             }
         }
         if (player1.getCardLevel() > player2.getCardLevel()) {
@@ -24,7 +25,12 @@ public class CheckCard {
         }
         return "palyer2";
     }
-    private static String compareSameStraight(Player player1, Player player2){
+
+    private static String compareBothFlush(Player player1, Player player2) {
+        return checkSameLevel(player1,player2);
+    }
+
+    private static String compareBothStraight(Player player1, Player player2){
         List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
         List<Integer> play2List = Arrays.asList(TransformUtil.getSortValues(player2));
         if(play1List.get(4) == play2List.get(4)){
@@ -35,7 +41,7 @@ public class CheckCard {
             return "palyer2";
         }
     }
-    private static String compareSameTwoPair(Player player1, Player player2) {
+    private static String compareBothTwoPair(Player player1, Player player2) {
         Integer pairValue1Min = TransformUtil.findPairValue(player1);
         List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
         play1List = play1List.stream().filter(num -> num != pairValue1Min).collect(Collectors.toList());
