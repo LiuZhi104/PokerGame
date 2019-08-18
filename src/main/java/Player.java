@@ -1,16 +1,16 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Player {
-    private final int HIGH_CARD =0;
-    private final int PAIR =1;
-    private final int TWO_PAIR =2;
-    private final int THREE_OF_A_KIND =3;
-    private final int THREE_C =4;
-    private final int STRAIGHT =5;
-    private final int FLUSH =6;
-    private final int FULL_HOUSE =7;
-    private final int FOUR_OF_A_KIND =8;
-    private final int STARIGHT_FLUSH =9;
+    private final int HIGH_CARD = 0;
+    private final int PAIR = 1;
+    private final int TWO_PAIR = 2;
+    private final int THREE_OF_A_KIND = 3;
+    private final int STRAIGHT = 4;
+    private final int FLUSH = 5;
+    private final int FULL_HOUSE = 6;
+    private final int FOUR_OF_A_KIND = 7;
+    private final int STARIGHT_FLUSH = 8;
     private String name;
     private List<Poker> cardGroup = new ArrayList<>();
     private int cardLevel = HIGH_CARD;
@@ -42,19 +42,22 @@ public class Player {
     public void setCardGroup(List<Poker> cardGroup) {
         this.cardGroup = cardGroup;
     }
-    public void computeCardLevel(){
+
+    public void computeCardLevel() {
         Integer[] palyerValues = TransformUtil.playerGetSortValues(this.cardGroup);
         Set<Integer> noRepetValues = new HashSet<>(Arrays.asList(palyerValues));
-        if(noRepetValues.size() == 4){
+        if (noRepetValues.size() == 4) {
             this.cardLevel = PAIR;
-        }else if(noRepetValues.size() == 3){
-            Integer pairValue1 = TransformUtil.findPairValue(this);
-            List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(this));
-            if(play1List.size() == 2){
+        } else if (noRepetValues.size() == 3) {
+            Integer pairValue = TransformUtil.findPairValue(this);
+            List<Integer> playList = Arrays.asList(TransformUtil.getSortValues(this));
+            playList = playList.stream().filter(num -> num != pairValue).collect(Collectors.toList());
+            if (playList.size() == 2) {
                 this.cardLevel = THREE_OF_A_KIND;
+            } else {
+                this.cardLevel = TWO_PAIR;
             }
-            this.cardLevel = TWO_PAIR;
-        }else if (noRepetValues.size() == 2){
+        } else if (noRepetValues.size() == 2) {
 
         }
     }

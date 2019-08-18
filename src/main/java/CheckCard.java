@@ -9,9 +9,7 @@ public class CheckCard {
         if(player1.getCardLevel()==player2.getCardLevel()){
             if(player1.getCardLevel() == 0){
                 return checkSameLevel(player1,player2);
-            }else if(player1.getCardLevel()==1){
-                return checkSameLevel(player1,player2);
-            }else if(player1.getCardLevel()==2){
+            } else if(player1.getCardLevel()==1){
                 Integer pairValue1 = TransformUtil.findPairValue(player1);
                 List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
                 play1List = play1List.stream().filter(num -> num != pairValue1).collect(Collectors.toList());
@@ -25,7 +23,7 @@ public class CheckCard {
                     return "palyer2";
                 }
                 return TransformUtil.compareCardValuesList(play1List,play2List);
-            }else if(player1.getCardLevel()==3){
+            }else if(player1.getCardLevel()==2){
                 Integer pairValue1Min = TransformUtil.findPairValue(player1);
                 List<Integer> play1List = Arrays.asList(TransformUtil.getSortValues(player1));
                 play1List = play1List.stream().filter(num -> num != pairValue1Min).collect(Collectors.toList());
