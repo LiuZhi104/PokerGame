@@ -86,4 +86,13 @@ public class TransformUtil {
         }
         return null;
     }
+
+    public static List<String> getAllCardColor(Player player){
+        List<Poker> cardGroup = player.getCardGroup();
+        List<String> cardColors = new ArrayList<>();
+        for(Poker p:cardGroup){
+            cardColors.add(p.getColor());
+        }
+        return cardColors;
+    }
 }

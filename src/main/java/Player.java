@@ -46,7 +46,23 @@ public class Player {
     public void computeCardLevel() {
         Integer[] palyerValues = TransformUtil.playerGetSortValues(this.cardGroup);
         Set<Integer> noRepetValues = new HashSet<>(Arrays.asList(palyerValues));
-        if (noRepetValues.size() == 4) {
+        if (noRepetValues.size() == 5) {
+            List<String> allCardColor = TransformUtil.getAllCardColor(this);
+            String sameColor = allCardColor.get(0);
+            allCardColor = allCardColor.stream().filter(color -> color != sameColor).collect(Collectors.toList());
+            if (allCardColor.size() == 0) {
+                if (palyerValues[4] - palyerValues[0] == 4) {
+                    this.cardLevel = STARIGHT_FLUSH;
+                } else {
+                    this.cardLevel = FLUSH;
+                }
+
+            } else {
+                if (palyerValues[4] - palyerValues[0] == 4) {
+                    this.cardLevel = STRAIGHT;
+                }
+            }
+        } else if (noRepetValues.size() == 4) {
             this.cardLevel = PAIR;
         } else if (noRepetValues.size() == 3) {
             Integer pairValue = TransformUtil.findPairValue(this);
